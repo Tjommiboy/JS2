@@ -1,0 +1,96 @@
+@import "../../node_modules/bootstrap/scss/functions";
+
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/variables-dark";
+@import "variables";
+@import "variables-dark";
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/utilities";
+
+// bootstrap main file
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// custom components
+@import "buttons";
+
+.frontpagepic {
+  background-image: url(../../pictures/DSC_0989.JPG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.profilbgpic {
+  background-image: url(../../pictures/green\ bush\ colors.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.profilbg-pic {
+  background-image: url(../../pictures/DSC_0089.JPG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+$card-border-color: red;
+
+.img-thumbnail {
+  width: 32%;
+}
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 907px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
+.btn-secondary {
+  --bs-btn-bg: #f8f9fa09;
+  --bs-btn-hover-bg: #859ab053;
+  --bs-btn-color: rgb(255, 255, 255);
+  --bs-btn-hover-color: rgb(255, 255, 255);
+  --bs-btn-border-color: #f8f9fa00;
+  --bs-btn-hover-border-color: #c6c7c800;
+}
+.btn-primary {
+  background-color: rgb(11, 63, 80);
+  border: rgb(11, 63, 80);
+}
+
+.carousel-item {
+  border-radius: 5px;
+}
+
+.img-mini {
+  width: 35px;
+}
+.img-profile {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 2%;
+}
+
+// .profilcard {
+//   justify-content: center;
+//   display: flex;
+//   align-items: center;
+//   width: 100%;
+// }
+
+.profilcard-margin {
+  margin-left: 15%;
+}
+
+.btn-light {
+  --bs-btn-bg: #f8f9fa09;
+  --bs-btn-hover-bg: #859ab053;
+  --bs-btn-color: rgb(255, 255, 255);
+  --bs-btn-hover-color: rgb(255, 255, 255);
+  --bs-btn-border-color: #f8f9fa00;
+  --bs-btn-hover-border-color: #c6c7c800;
+}
+
+$nav-link-hover-color: var(--#{$prefix}link-hover-color);
