@@ -1,5 +1,6 @@
 import { setRegisterFormListner } from "./handlers/register.mjs";
 import { setLoginFormListner } from "./handlers/login.mjs";
+import * as posts from "./api/posts/index.mjs";
 
 const path = location.pathname;
 
