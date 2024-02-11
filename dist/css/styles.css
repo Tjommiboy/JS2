@@ -12048,4 +12048,12 @@ textarea.form-control-lg {
   --bs-btn-hover-border-color: #c6c7c800;
 }
 
+.help {
+  display: none;
+}
+
+input:invalid + .help {
+  display: block;
+}
+
 /*# sourceMappingURL=styles.css.map */
