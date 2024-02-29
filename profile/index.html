@@ -34,14 +34,12 @@
               <a
                 class="nav-link active"
                 aria-current="page"
-                href="../profile/login/index.html"
+                href="../profile/login/"
                 >Login</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../profile/register/index.html"
-                >Register</a
-              >
+              <a class="nav-link" href="../profile/register/">Register</a>
             </li>
           </ul>
         </div>
@@ -50,92 +48,20 @@
     <main class="flex-grow-1">
       <div class="container-fluid">
         <section class="container pt-5 pb-5 d-flex justify-content-center">
-          <form
-            action="/profile.html"
-            class="col-9 col-sm-6 col-md-6 col-xl-4 justify-content-center"
+          <img class="logo" src="../pictures/Link-up-logo.png" alt="" />
+
+          <button
+            onclick="window.location.href ='./login/index.html'  "
+            class="btn btn-primary"
           >
-            <div class="mb-3">
-              <label required for="emailadress" class="form-label"
-                >Email address</label
-              >
-              <input
-                pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9._+-]+\.[a-z]{2,}"
-                required
-                type="email"
-                placeholder="enter your email"
-                class="form-control"
-                id="emailadress"
-                aria-describedby="emailHelp"
-              />
-              <div id="emailHelp" class="form-text">
-                We will not share your email with anyone else.
-              </div>
-            </div>
-            <div class="mb-3">
-              <label for="Password" class="form-label">Password</label>
-              <input
-                title="Must be at least 8 characters"
-                pattern="[a-zA-Z0-9]{8,}"
-                required
-                type="password"
-                placeholder="enter your password"
-                class="form-control"
-                id="password"
-              />
-              <div id="passwordhelp" class="form-text">
-                Must be at least 8 Characters.
-              </div>
-            </div>
-
-            <button type="submit" class="btn btn-primary">Login</button>
-            <!-- Button trigger modal -->
-            <button
-              type="button"
-              class="btn btn-primary"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-            >
-              Launch demo modal
-            </button>
-
-            <!-- Modal -->
-            <div
-              class="modal fade"
-              id="exampleModal"
-              tabindex="-1"
-              aria-labelledby="exampleModalLabel"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">
-                      Modal title
-                    </h1>
-                    <button
-                      type="button"
-                      class="btn-close"
-                      data-bs-dismiss="modal"
-                      aria-label="Close"
-                    ></button>
-                  </div>
-                  <div class="modal-body">...</div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-secondary"
-                      data-bs-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                    <button type="button" class="btn btn-primary">
-                      Save changes
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </form>
+            Login
+          </button>
+          <button
+            onclick="window.location.href ='./register/index.html'  "
+            class="btn btn-primary"
+          >
+            Register
+          </button>
         </section>
       </div>
     </main>

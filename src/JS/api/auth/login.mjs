@@ -17,8 +17,7 @@ export async function login(profile) {
     body,
   });
   const { accessToken, ...user } = await response.json();
-
-  // localStorage.setItem("token", result.accessToken);
+  alert("you are now logged in");
 
   storage.save("token", accessToken);
   storage.save("profile", user);

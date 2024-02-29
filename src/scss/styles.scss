@@ -56,7 +56,7 @@ $grid-breakpoints: (
   --bs-btn-hover-border-color: #c6c7c800;
 }
 .btn-primary {
-  background-color: rgb(11, 63, 80);
+  background-color: rgba(80, 38, 11, 0.48);
   border: rgb(11, 63, 80);
 }
 
@@ -94,3 +94,8 @@ $grid-breakpoints: (
 }
 
 $nav-link-hover-color: var(--#{$prefix}link-hover-color);
+
+.logo {
+  width: 50%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
