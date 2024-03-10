@@ -12049,8 +12049,13 @@ textarea.form-control-lg {
 }
 
 .logo {
-  width: 50%; /* Adjust the width as needed */
-  height: auto; /* Maintain aspect ratio */
+  width: 50%;
+  height: auto;
+}
+
+.postImg {
+  width: 500px;
+  border-radius: 3px;
 }
 
 /*# sourceMappingURL=styles.css.map */

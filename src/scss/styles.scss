@@ -96,6 +96,11 @@ $grid-breakpoints: (
 $nav-link-hover-color: var(--#{$prefix}link-hover-color);
 
 .logo {
-  width: 50%; /* Adjust the width as needed */
-  height: auto; /* Maintain aspect ratio */
+  width: 50%;
+  height: auto;
+}
+
+.postImg {
+  width: 500px;
+  border-radius: 3px;
 }

@@ -9,7 +9,7 @@ export function setCreatePostListner() {
       const form = event.target;
       const formData = new FormData(form);
       const post = Object.fromEntries(formData.entries());
-
+      console.log(post);
       // send it to the api
       createPost(post);
     });

@@ -14,10 +14,19 @@ export function setUpdatePostListner() {
       const post = Object.fromEntries(formData.entries());
       post.id = id;
 
-      //   console.log("ID from URL:", id);
-      //   console.log("Post to update:", post);
-      // send it to the api
       updatePost(post);
     });
   }
 }
+
+// let testPostId = localStorage.getItem("testPostId");
+
+// function updateTest() {
+//     if (!testPostId) {
+//         // make a new post if there isn't one already
+//         const { id } = await createPost(someDetailsHere);
+//         testPostId = id;
+//     }
+
+//     await updatePost({ id, ...someDetailsHere })
+// }
